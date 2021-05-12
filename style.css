@@ -1,0 +1,68 @@
+h1 {
+    color:rgba(255, 136, 0, 0.747);
+    font-family:monotype cursiva ;
+    text-align: center;
+}
+
+body{
+    background-color: lightyellow;
+   /* background-color: #eeff0193;*/
+}
+a{
+    font-family:cursive;
+    font-size:large;
+    color: magenta;
+}
+.Header{
+    background-color: rgb(236, 190, 149);
+    border: medium outset rgb(195, 245, 59);;
+}
+
+.Parent{
+    background-color: springgreen;
+    border: thin dashed rgb(255, 143, 143);
+   display:flex;
+    justify-content:space-evenly;
+   
+    flex-wrap:wrap;
+}
+
+.child{
+    background-color:rgb(169, 214, 151);
+    border:  thick outset rebeccapurple;
+    display: flex;
+   /* order: 6;*/
+  
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.footer{
+    
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+}
+.Name{
+    background-color:rgba(128, 236, 255, 0.747) ;
+     border: medium outset rgb(0, 247, 255);
+ }
+ .Name2{
+    background-color:rgba(0, 33, 39, 0.747) ;
+     border: medium outset rgb(255, 255, 255);
+ }
+ .footermenu{
+ 
+   
+     background-color: #4D7496;
+  
+ }
+
+ .f1{
+   
+    display:flex;
+    justify-content:space-evenly;
+ }
+ .f2{
+    display:flex;
+    justify-content:space-evenly;
+ }
